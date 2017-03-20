@@ -23,5 +23,10 @@ echo strpos('haystack', 'a');echo "<br>";
 echo substr('haystack',1);echo "<br>";
 echo substr('haystack',1,2);echo "<br>";
 //字符串转数组
-$result=str_split($str1);
+$result=str_split($str1);//可选分割长度
 print_r($result);echo "<br>";
+echo 'explode — 使用一个字符串分割另一个字符串';
+print_r(explode(' ',$str1));
+//字符串连接
+$num=23;
+echo 'a'.'<p style="color:red;">jack</p>'.$num;echo "<br>";
