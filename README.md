@@ -8,15 +8,18 @@ grammar_cjkRuby: true
 
 # 1.1.0
 
-## 1.1.0 _新功能_
+## 1.1 _新功能_
 
 1. 搭建好框架，初步实现功能
 
 
-## 1.10.0 _修改_
+## 1.2 _修改_
 
 1. 初步修改
-
+2. 命令
+	
+> git remote rm origin
+> git remote add origin git@github.com:LeaderAndMaster/tp5.git
 ===============
 
 [![Total Downloads](https://poser.pugx.org/topthink/think/downloads)](https://packagist.org/packages/topthink/think)
